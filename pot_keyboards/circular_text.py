@@ -171,16 +171,18 @@ from wand.drawing import Drawing
 def add_arced_text(main_image, text_to_add, arc_amount, rotation_amount, font_size, radius):
     # I'm unsure how to implement a radius?
     temp_image = Image(filename='temp:')
-    temp_image.font = Font('Arial', font_size)
-    text_v = 'label:'+ text_to_add
-    temp_image.read(filename=text_v)
-    temp_image.virtual_pixel = 'white'
-    temp_image.distort('arc', (arc_amount, rotation_amount))
+    with Drawing() as draw:
+        draw.font = Font('Arial', font_size)
+        text_v = 'label:'+ text_to_add
+        draw.read(filename=text_v)
+        draw.virtual_pixel = 'white'
+        draw.distort('arc', (arc_amount, rotation_amount))
+        draw(temp_image)
     main_image.composite(operator='alpha', left=0, top=0, width=main_image.width, height=main_image.height, image = temp_image)
     return main_image
 
 main = Image(filename='new_image')
 main.background_color = 'white'
-main.font = Font('Arial', 20)
+main.font = 'fonts/'
 
 
