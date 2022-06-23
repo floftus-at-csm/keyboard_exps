@@ -13,6 +13,8 @@
 # potentially only make smaller images (e.g. 800 x 20 rather than 800 x 400)
 # make sure thonny is closed when doing
 
+# requires imagemagick
+# https://docs.wand-py.org/en/latest/guide/install.html
 # 'undefined'
 
 # 'alpha' - Only available with ImageMagick-7
@@ -176,4 +178,9 @@ def add_arced_text(main_image, text_to_add, arc_amount, rotation_amount, font_si
     temp_image.distort('arc', (arc_amount, rotation_amount))
     main_image.composite(operator='alpha', left=0, top=0, width=main_image.width, height=main_image.height, image = temp_image)
     return main_image
+
+main = Image(filename='new_image')
+main.background_color = 'white'
+main.font = Font('Arial', 20)
+
 
