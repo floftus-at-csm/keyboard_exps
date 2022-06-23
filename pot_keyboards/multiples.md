@@ -8,30 +8,43 @@ Brief overview:
 Timeline/sections (if its non-linear):
 set the scene 
 
+text 
+    Text samples:
+    How many times had they traced that path
+    a ride, a ride
+    piskit,wisp,piskie,
 
-Text samples:
-How many times had they traced that path
-a ride, a ride
-piskit,wisp,piskie,
+    clay, molded, earthenwares, folded weight, press, again, soften it, 
 
-clay, molded, earthenwares, folded weight, press, again, soften it, 
+    structure like a function
+    e.g. def function(argument1, argument2, argument3, argument4, argument5)
 
-structure like a function
-e.g. def function(argument1, argument2, argument3, argument4, argument5)
+    my version: 
 
-my version: 
+    echo gather(wet clay, folded weight, press, soften, again):
 
-echo gather(wet clay, folded weight, press, soften, again):
+        ** wet clay ||=|| piskit *= wisps ** 
 
-    ** wet clay ||=|| piskit *= wisps ** 
+        ** wet clay -{=}- a ride a ride **
 
-    ** wet clay -{=}- a ride a ride **
+        ** wet clay coiled up and **
 
-    ** wet clay coiled up and **
+        ** soften again up and ** 
 
-    ** soften again up and ** 
-
-    ** soft again up and ** 
+        ** soft again up and ** 
 
 
-gather(split clay in the palm of your hand)
+    gather(split clay in the palm of your hand)
+
+
+
+
+
+    My version 2:
+
+    unbound 
+
+
+image
+    notes:
+        some 2D images - taken from google/youtube searches?
