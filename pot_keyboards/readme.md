@@ -1,3 +1,5 @@
+Keyboard exps
+readme.md
 Technical References:
 https://medium.com/geekculture/serial-connection-between-raspberry-pi-and-raspberry-pico-d6c0ba97c7dc
 
@@ -36,6 +38,44 @@ Nick Montfort
     Curveship (javascript and python)
     https://nickm.com/curveship/js/doc/start.html
 
-
+Danni Storm
+    layering up text to create nice, pencil/charcoal style shading
+    marksmade-stainedland
+    https://www.dannistorm.xyz/
+    could easily do this by adding complexity to the for loop
+    might need to go line by line
+    that might create a nice animation
+    v slow
+    this would be best with partial refresh
+    the screen effectively forgets whats on the screen every refresh
+    this will allow me to build up detail in the image
 
 Olia Lialina
+
+
+
+Aesthetics
+	play with making it look like a book
+	but made with clay?
+	an abstraction
+	definitely talk to Natalya about this
+
+	needs to be political
+
+	wireframe a 3d shape to get paths for text
+	
+	once I can work out 3D I can layer up images
+	to create a sense of depth
+	this would work with the 
+
+	this is moving towards animation
+	I think that could be a cool way of reading a text
+	make it about (social) multiplicity
+	move from small sentences making up a whole word to a huge variety of words from different voices
+	storytelling
+
+	tell story from perspective of the sidhe (underground, enchanted, mythical)
+	alexis pauline gumbs style
+
+	maybe start from a piece from a story I’ve written
+	
