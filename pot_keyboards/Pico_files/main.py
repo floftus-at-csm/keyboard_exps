@@ -133,7 +133,8 @@ switch_off = False
 if __name__ == "__main__":
     pico = Pico()
     val = 60
-    loop_num = 0
+    # might need to try with a lower val bc of memory - maybe 10
+    # loop_num = 0
     while switch_off == False:
         current_text_image = pico.main()
         for i in range(val):
@@ -142,6 +143,7 @@ if __name__ == "__main__":
         pico.epd.display(pico.epd.buffer)
         pico.epd.delay_ms(500)
         switch_off = True
+        # I would then have to send via serial here
 
 
     
