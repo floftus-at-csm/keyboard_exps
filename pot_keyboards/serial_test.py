@@ -41,25 +41,29 @@ def rotate_3d_model(model):
     # save to folder
     return path
 
-def load_image_from_path(path):
+# def load_image_from_path(path):
 
 
-    return the_image
+#     return the_image
 
-def create_text_image(image):
+# def create_text_image(image):
 
-    return text_array 
+#     return text_array 
 
 
 
 if __name__ == '__main__':
 
     #previous_media_info = None
-    
+    previous_image_array = ""
     while True:
-        current_image_path = rotate_3d_model(current_model)
-        current_image = load_image_from_path(current_image_path);
-        text_image_array = create_text_image(current_image)
+        # current_image_path = rotate_3d_model(current_model)
+        # current_image = load_image_from_path(current_image_path)
+        # text_image_array = create_text_image(current_image)
+        
+        with open("text_images/test.txt") as file:
+            text_image_array = file.readlines()
+            text_image_array = [line.rstrip() for line in lines]
         
         
         if text_image_array != previous_image_array and text_image_array != None:

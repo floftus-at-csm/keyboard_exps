@@ -136,11 +136,12 @@ if __name__ == "__main__":
     loop_num = 0
     while switch_off == False:
         current_text_image = pico.main()
-        for _ in range(val):
-            current_string = current_text_image[val-loop_num]
-            pico.epd.text(current_string, 0, (val-loop_num-1)*8, 0xff)
+        for i in range(val):
+            current_string = current_text_image[val-i]
+            pico.epd.text(current_string, 0, (val-i-1)*8, 0xff)
         pico.epd.display(pico.epd.buffer)
         pico.epd.delay_ms(500)
+        switch_off = True
 
 
     

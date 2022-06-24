@@ -133,7 +133,7 @@ def iterate_through(full_xy_coords, word_l, m, ordered):
 								trigger2 = True
 				if trigger == False and trigger2 == False:
 						# this doesn't need to be a space - it could be anything - like binary
-						temp_w = temp_w + " " 
+						temp_w = temp_w + "|" 
 			if j == w-1:
 					temp_w = temp_w + "\n"
 					print("line break")
@@ -159,32 +159,23 @@ im_resized = im_resized.point( lambda p: 255 if p>threshold else 0)
 im_resized = im_resized.convert('1')
 im_resized.show()
 sample_text = "we promise to wake you up if we think you won't get the point of the dream. we promise to show up if you show up."
+sample_text2 = "different text different text"
 # chars = split(ordered_letters)
 chars = split_string(sample_text)
 strings_vec = sample_text.split()
 # print(type(strings_vec))
 # print(len(strings_vec[1]))
-print(chars)
-print(strings_vec)
+# print(chars)
+# print(strings_vec)
 
 longest_word = 0
 for i in strings_vec:
 	# print(i)
 	if len(i) > longest_word:
 		longest_word = len(i)
-print("the longest word is: ", longest_word)
+# print("the longest word is: ", longest_word)
 # strings_vec = sample_text.split()
 
-# # alt method
-# ordered_string_vec = []
-# for j in longest_word:
-# 	val=1
-# 	temp_vec = []
-# 	for i in chars:
-# 		if len(i) == j
-# 			temp_vec.append(strings_vec[val])
-# 		val+=1
-# ordered_string_vec.append(temp_vec)	
 
 
 # get_coords(longest_word, im_resized)
